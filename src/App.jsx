@@ -7,6 +7,7 @@ function App() {
       {/* HEADER SECTION */}
       <header style={{ borderBottom: '2px solid #eaeaea', paddingBottom: '20px', marginBottom: '30px' }}>
         <h1 style={{ fontSize: '2.5rem', margin: '0 0 10px 0', color: '#1a1a1a' }}>[Tu Nombre Aquí]</h1>
+        <h1 className="text-3xl font-bold underline text-blue-600">Tailwind is working!</h1>
         <p style={{ fontSize: '1.2rem', margin: '0', color: '#666', fontWeight: '500' }}>
           Aspiring Frontend Developer | React | Git & GitHub
         </p>
