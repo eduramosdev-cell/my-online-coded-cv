@@ -2,11 +2,11 @@ export const Hero = () => {
     return <section className="relative min-h-screen flex items-center overflow-hidden">
         {/*Bg*/}
         <div className="absolute inset-0">
-            <img src="../public/projects/hero-bg.png" alt="Hero Background " className="w-full object-cover opacity-50" />
-            <div className="absolute inset-0 bg-linear-to-b from-background/20 via-secondary/20 to-background" />
+            <img src="/projects/Hero-bg.png" alt="Hero Background " className="w-full h-full object-cover" />
+            <div className="absolute inset-0 bg-linear-to-b from-background/20 via-background/80 to-background" />
         </div>
 
-        {/*Green Dots*/}
+        {/*Blue Dots*/}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
             {[...Array(30)].map((_, index) => (
                 <div key={index} className={`absolute w-1.5 h-1.5 bg-slate-400 rounded-full opacity-60`} style={{
@@ -19,9 +19,33 @@ export const Hero = () => {
         </div>
 
         {/*Content*/}
-        <div>
-            <div>
-                
+        <div className="container mx-auto px-6 pt-32 pb-20 relative z-10">
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+                {/* Left Column - Text Content */}
+                <div className="space-y-8">
+                    <div className="animate-fade-in">
+                        <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
+                            <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
+                            Software Engineer - React Especialist
+                        </span>
+                    </div>
+                    {/* Headline */}
+                    <div className="space-y-4 ">
+                        <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight animate-fade-in animation-delay-100">
+                            Crafting <span className="text-primary glow-text">digital</span>
+                            <br />
+                            experiences with 
+                            <br />
+                            <span className="font-serif italic font-normal text-white">
+                                precision.
+                            </span>
+                        </h1>
+                        <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
+                            I am a passionate software engineer specializing in React, dedicated to creating seamless and engaging digital experiences. With a keen eye for detail and a commitment to excellence, I strive to deliver high-quality solutions that exceed expectations.
+                        </p>
+                    </div>
+                </div>
+                {/* Right Column - Image profile */}
             </div>
         </div>
     </section>
