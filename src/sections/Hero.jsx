@@ -3,6 +3,7 @@ import { AnimatedBorderButton } from "../components/AnimatedBorderButton"
 import { ArrowRight } from "lucide-react"
 
 export const Hero = () => {
+
     return <section className="relative min-h-screen flex items-center overflow-hidden">
         {/*Bg*/}
         <div className="absolute inset-0">
@@ -53,6 +54,8 @@ export const Hero = () => {
                         <Button size="lg">Contact Me: <ArrowRight className="w-5 h-5" /></Button>
                         <AnimatedBorderButton />
                     </div>
+                    {/*Social links*/}
+                    
                 </div>
                 {/* Right Column - Image profile */}
             </div>
