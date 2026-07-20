@@ -1,3 +1,7 @@
+import { Button } from "../components/Button"
+import { AnimatedBorderButton } from "../components/AnimatedBorderButton"
+import { ArrowRight } from "lucide-react"
+
 export const Hero = () => {
     return <section className="relative min-h-screen flex items-center overflow-hidden">
         {/*Bg*/}
@@ -43,6 +47,11 @@ export const Hero = () => {
                         <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
                             I am a passionate software engineer specializing in React, dedicated to creating seamless and engaging digital experiences. With a keen eye for detail and a commitment to excellence, I strive to deliver high-quality solutions that exceed expectations.
                         </p>
+                    </div>
+                    {/*CTA Buttons*/}
+                    <div className="flex flex-wrap gap-4 animate-fade-in animation-delay-300">
+                        <Button size="lg">Contact Me: <ArrowRight className="w-5 h-5" /></Button>
+                        <AnimatedBorderButton />
                     </div>
                 </div>
                 {/* Right Column - Image profile */}
