@@ -1,6 +1,8 @@
 import { Button } from "../components/Button"
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton"
 import { ArrowRight } from "lucide-react"
+import { FaXTwitter, FaLinkedin, FaGithub } from "react-icons/fa6";
+
 
 export const Hero = () => {
 
@@ -55,9 +57,31 @@ export const Hero = () => {
                         <AnimatedBorderButton />
                     </div>
                     {/*Social links*/}
-                    
+                    <div className="flex items-center gap-4 animate-fade-in animation-delay-400">
+                        <span className="text-sm text-muted-foreground">Follow me:</span>
+                        {[
+                            {icon: FaGithub, href:"#"},
+                            {icon: FaLinkedin, href:"#"},
+                            {icon: FaXTwitter, href:"#"}
+                            ].map((social, idx) => {
+                                const Icon = social.icon
+                                return (
+                                <a href={social.href} key={idx} className="p-2 ronded-full glass bg-transparent hover:bg-primary/10 hover:text-primary transition-all duration-300">
+                                    <Icon className="w-5 h-5"/>
+                                </a>
+                                )
+                        })}
+                    </div>
                 </div>
                 {/* Right Column - Image profile */}
+                <div>
+                    {/*Profile image*/}
+                    <div>
+                        <div>
+                            <img src="public\projects\profile-photo.png" />
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
