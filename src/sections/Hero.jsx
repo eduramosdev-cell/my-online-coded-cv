@@ -12,11 +12,6 @@ const skills = [
 export const Hero = () => {
 
     return <section className="relative min-h-screen flex items-center overflow-hidden">
-        {/*Bg*/}
-        <div className="absolute inset-0">
-            <img src="/projects/Hero-bg.png" alt="Hero Background " className="w-full h-full object-cover" />
-            <div className="absolute inset-0 bg-linear-to-b from-background/20 via-background/80 to-background" />
-        </div>
 
         {/*Blue Dots*/}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
