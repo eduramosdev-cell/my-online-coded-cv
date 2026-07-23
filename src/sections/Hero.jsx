@@ -1,6 +1,6 @@
 import { Button } from "../components/Button"
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton"
-import { ArrowRight, ChevronDown } from "lucide-react"
+import { ArrowRight, ChevronDown, Download } from "lucide-react"
 import { FaXTwitter, FaLinkedin, FaGithub } from "react-icons/fa6";
 
 const skills = [
@@ -54,7 +54,10 @@ export const Hero = () => {
                     {/*CTA Buttons*/}
                     <div className="flex flex-wrap gap-4 animate-fade-in animation-delay-300">
                         <Button size="lg">Contact Me: <ArrowRight className="w-5 h-5" /></Button>
-                        <AnimatedBorderButton />
+                        <AnimatedBorderButton>
+                            <Download className="w-5 h-5" />
+                            Download CV
+                        </AnimatedBorderButton>
                     </div>
                     {/*Social links*/}
                     <div className="flex items-center gap-4 animate-fade-in animation-delay-400">
