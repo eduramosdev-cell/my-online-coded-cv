@@ -70,7 +70,7 @@ export const Navbar = () => {
                             {link.label}
                         </a>
                 ))} 
-                <Button onClick={() => setIsMobileMenuOpen(false)}>Contact Me</Button>
+                <Button onClick={() => setIsMobileMenuOpen(false)} href="contact">Contact Me</Button>
             </div>
         </div>
         )}
