@@ -63,13 +63,12 @@ export const Hero = () => {
                     <div className="flex items-center gap-4 animate-fade-in animation-delay-400">
                         <span className="text-sm text-muted-foreground">Follow me:</span>
                         {[
-                            {icon: FaGithub, href:"#"},
-                            {icon: FaLinkedin, href:"#"},
-                            {icon: FaXTwitter, href:"#"}
+                            {icon: FaGithub, href:"https://github.com/repos?q=owner%3A%40me"},
+                            {icon: FaLinkedin, href:"https://www.linkedin.com/in/eduardo-ramos-959610425/?isSelfProfile=true"},
                             ].map((social, idx) => {
                                 const Icon = social.icon
                                 return (
-                                <a href={social.href} key={idx} className="p-2 ronded-full glass bg-transparent hover:bg-primary/10 hover:text-primary transition-all duration-300">
+                                <a href={social.href} target="_blank" key={idx} className="p-2 ronded-full glass bg-transparent hover:bg-primary/10 hover:text-primary transition-all duration-300">
                                     <Icon className="w-5 h-5"/>
                                 </a>
                                 )

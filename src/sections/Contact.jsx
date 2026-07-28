@@ -7,19 +7,19 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email",
-    value: "pedro@example.com",
-    href: "mailto:pedro@example.com",
+    value: "eduramos.dev@gmail.com",
+    href: "mailto:eduramos.dev@gmail.com",
   },
   {
     icon: Phone,
     label: "Phone",
-    value: "+1 (555) 123-4567",
-    href: "tel:+15551234567",
+    value: "+55 21 99578 1925",
+    href: "tel:+5521995781925",
   },
   {
     icon: MapPin,
     label: "Location",
-    value: "San Francisco, CA",
+    value: "Saquarema, BR",
     href: "#",
   },
 ];

@@ -5,11 +5,11 @@ import { AnimatedBorderButton } from "../components/AnimatedBorderButton"
 const projects = [
     {
         title: "Online Resume",
-        description: "My online CV",
+        description: "My online resume",
         image: "/projects/Resume-project-screenshot.jpeg",
         tags: ["React, Tailwind CSS"],
-        link: "#",
-        github: "#"
+        link: "https://github.com/eduramosdev-cell/my-online-coded-cv",
+        github: "https://github.com/eduramosdev-cell/my-online-coded-cv"
     }
 ]
 
@@ -44,10 +44,10 @@ export const Projects = () => {
                             <div className="absolute inset-0 bg-linear-to-t from-card via-card/50 to-transparent opacity-60" />
                             {/*Overlay links*/}
                             <div className="absolute inset-0 flex items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                <a href={project.link} className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all">
+                                <a href={project.link} target="_blank" className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all">
                                     <ArrowUpRight className="w-5 h-5"/>
                                 </a>
-                                <a  href={project.github} className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all">
+                                <a  href={project.github} target="_blank" className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all">
                                     <FaGithub className="w-5 h-5" />
                                 </a>
                             </div>
@@ -70,7 +70,7 @@ export const Projects = () => {
             </div>
             {/*View all CTA*/}
             <div className="text-center mt-12 animate-fade-in animation-delay-500">
-                <AnimatedBorderButton>
+                <AnimatedBorderButton href="https://github.com/repos?q=owner%3A%40me" target="_blank">
                     View All Projects
                     <ArrowUpRight className="w-5 h-5" />
                 </AnimatedBorderButton>
