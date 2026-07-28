@@ -39,17 +39,10 @@ export const About = () => {
                     </h2>
                     <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
                        <p>
-                         I'm a passionate software engineer with over 5 years of
-                        experience crafting digital products that make a difference. My
-                        journey started with a curiosity for how things work on the web,
-                        and it has evolved into a deep expertise in modern frontend
-                        technologies.
+                         Enthusiastic and detail-oriented aspiring Developer seeking to launch a professional career in software engineering. I bring a solid foundational understanding of core programming concepts, data structures, and modern development practices. Highly adaptable and a proactive self-starter, I thrive on solving complex logic problems and rapidly mastering new technologies, frameworks, and tools.
                       </p>
                       <p>
-                        I specialize in React, Next.js, and TypeScript, building
-                        everything from sleek landing pages to complex enterprise
-                        applications. My approach combines technical excellence with a
-                        keen eye for design and user experience.
+                        Having built a collection of personal and academic projects using [Sua Tech Stack, ex: HTML, CSS, JavaScript, and React], I am eager to secure an entry-level developer position. My goal is to join a collaborative engineering team where I can undergo training, contribute to clean and scalable code, and immediately help ship impactful digital solutions.
                       </p>
                       <p>
                         When I'm not coding, you'll find me exploring new technologies,
@@ -60,9 +53,7 @@ export const About = () => {
 
                     <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
                       <p className="text-lg font-medium italic text-foreground">
-                        "My mission is to create digital experiences that are not just
-                        functional, but truly delightful — products that users love to
-                        use and developers love to maintain."
+                        "As simple as it sounds, my goal is to make people smile. I've found through these years, that a smile from someone I've contributed to, is priceless. That's why I have given a succesful service in such great establishments, and keep growing. All I have, It's all I give."
                       </p>
                     </div>
                 </div>
