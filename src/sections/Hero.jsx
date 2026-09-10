@@ -6,7 +6,10 @@ import { FaXTwitter, FaLinkedin, FaGithub } from "react-icons/fa6";
 const skills = [
     "React",
     "Tailwind CSS",
-    "GitHub Actions"
+    "GitHub Actions",
+    "Tanstack Query",
+    "APIs",
+    "SQL"
 ]
 
 export const Hero = () => {

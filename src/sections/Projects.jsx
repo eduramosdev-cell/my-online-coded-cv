@@ -10,6 +10,14 @@ const projects = [
         tags: ["React, Tailwind CSS"],
         link: "https://github.com/eduramosdev-cell/my-online-coded-cv",
         github: "https://github.com/eduramosdev-cell/my-online-coded-cv"
+    },
+    {
+        title: "Movies App",
+        description: "A simple API consuming movie app built with React Query and Tailwind CSS.",
+        image: "/projects/movies-app-project.png",
+        tags: ["React, Tailwind CSS"],
+        link: "https://github.com/eduramosdev-cell/Movies-app",
+        github: "https://github.com/eduramosdev-cell/Movies-app"
     }
 ]
 
